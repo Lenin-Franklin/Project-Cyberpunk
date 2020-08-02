@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+p:hover{
+cursor: grab;
+}
+
+.Image{
+      height: 450px;
+      width: 850px;
+      position: relative;
+      left: 300px;
+      margin: 100px 100px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 150px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .Corpo1{
+    background-image: url('Fight_background/Cyberpunk2077-Arriving_at_destination-en.jpg');
+    background-repeat: repeat;
+  background-size: auto;
+  }
+  .Corpo2{
+    background-image: url('images/Cyberpunk2077_Mr_Jenkins_RGB-en.jpg');
+    background-repeat: repeat;
+  background-size: auto;
+  }
+  .Corpo3{
+    background-image: url('Fight_background/Cyberpunk2077-Just_another_quiet_afternoon_in_Pacifica_RGB-en.jpg');
+    background-repeat: repeat;
+  background-size: auto;
+  }
+  .Corpo4{
+    background-image: url('Fight_background/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-en.jpg');
+    background-repeat: repeat;
+  background-size: auto
+  }
+  .Corpo5{
+    background-image: url('Fight_background/Cyberpunk2077-Really_love_what_you_did_with_the_place-RGB-en.jpg');
+    background-repeat: repeat;
+  background-size: auto;
+  }
+  .Corpo6{
+    background-image: url('Fight_background/screen-its-a-deal-en.jpg');
+    background-repeat: repeat;
+  background-size: auto;
+  }
+  .SK1{
+    background-image: url('Fight_background/Cyberpunk2077-The_man_with_the_silver_hand-RGB-en.jpg');
+    background-size: auto;
+  }
+  .SK2{
+    background-image: url('Fight_background/Cyberpunk2077_Love_this_town_RGB-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  .SK3{
+    background-image: url('Fight_background/Cyberpunk2077_November_2077_RGB-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  .SK4{
+    background-image: url('Fight_background/Cyberpunk2077-Nanowires-RGB-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  .SK5{
+    background-image: url('Fight_background/Cyberpunk2077_Dive_in_RGB-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .NM1{
+    background-image: url('Fight_background/Cyberpunk2077_In_the_middle_of_nowhere-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  .NM2{
+    background-image: url('Fight_background/Cyberpunk2077-Catching_a_break-RGB-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .NM3{
+    background-image: url('Fight_background/Cyberpunk2077_No_regrets_RGB-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .NM4{
+    background-image: url('Fight_background/Cyberpunk2077-Coming_through-RGB-en.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+
+.CorpoFight{
+  background-image: url('Fight_background/Cyberpunk2077_Goin_to_the_top_RGB-en.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.NomadFight{
+  background-image: url('Fight_background/Cyberpunk2077_Max_Tac_prevention_at_RGB-en.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.StreetKidFight{
+  background-image: url('Fight_background/Cyberpunk2077-Should_have_taken_the_elevator_RGB-en.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.buttonPosition{
+    background-image: url('images/2077_male_v_full_front.png');
+    background-size: cover;
+    position: relative;
+    padding: 200px;
+    margin-left: -100px;
+    
+}
+
+.FightButton{
+  display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(255, 250, 250);
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 150px;
+    border: 2px solid goldenrod;
+}
+
+.FightButton span{
+
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  
+}
+
+.FightButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.FightButton:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+  .VDialogs{
+    color: #00008b;
+    border-color: #000000;
+    position: relative;
+    left: -100px;
+    background-color: #c2c2c2;
+  }
+
+  .CharacterDialog{
+    color: red;
+    border-color: brown;
+    position: relative;
+    left: 200px;
+    background-color: rgb(255, 255, 163);
+  }
+
+  .CharacterDialog2{
+    color: rgb(0, 0, 0);
+    border-color: rgb(161, 19, 0);
+    position: relative;
+    left: 200px;
+    background-color: rgb(255, 212, 212);
+  }
+
+  .Choice{
+    padding: 5px 0px 5px 0px;
+    border-radius: 2%;
+    background-color: white;
+    border: 2px solid grey;
+    width: 20%;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .Choice1{
+    padding: 10px 0px 10px 0px;
+    border-radius: 2%;
+    border: 5px solid #b22222;
+    background-color: #ff2800;
+    width: 30%;
+  }
+  .Choice2{
+    padding: 10px 0px 10px 0px;
+    border-radius: 2%;
+    border: 5px solid #000080;
+    background-color: #1e90ff;
+    width: 30%;
+  }
+  .Choice3{
+    padding: 10px 0px 10px 0px;
+    border-radius: 2%;
+    border: 5px solid #006400;
+    background-color: #0bda51;
+    width: 30%;
+  }
+  .Choice4{
+    padding: 10px 0px 10px 0px;
+    border-radius: 2%;
+    border: 5px solid #2f4f45;
+    background-color: #c2c2c2;
+    width: 30%;
+  }
+
+.emotes1{
+  margin: 0px 0px 10px 0px;
+    background-color: #f50000;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #dc1430;
+
+}
+.emotes2{
+  margin: 0px 0px 10px 0px;
+    background-color: #00bfff;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #000039;
+
+}
+.emotes3{
+  margin: 0px 0px 10px 0px;
+    background-color: #90ee90;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #4d5d53;
+
+}
+.emotes4{
+  margin: 0px 0px 10px 0px;
+    background-color: #d3d3d3;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #0C090A;
+
+}

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-size: 10px;
+    background: rgb(12, 12, 12)
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(5, 5, 5);
+    font-family: 'Wallpoet', cursive;
+}
+.IntroFlex{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    padding: 20px;
+}
+
+.IntroImg{
+    height: 500px;
+    width: 700px;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li img{
+    height: 100px;
+    width: 200px;
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: rgb(212, 209, 35);
+    cursor: pointer;
+    animation-name: nav-bar;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.Intro{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 400px;
+    font-size: 100px;
+}
+
+#IntroPage
+{
+    background-image: url('images/CP77-KV-Wallpaper-3440x1440_EN.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#IntroLine-2{
+    padding-left: 100px;
+}
+
+.RPG{
+    margin-top: 100px;
+}
+
+h1{
+    
+    font-family: 'VT323', monospace;
+    font-size:60px;
+    font-style: italic;
+    position: relative;
+    color: yellow;
+    animation-name: h1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    padding-top: 50px;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+  position: relative;
+  animation-name: h2;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+
+}
+
+.Para{
+    font-family: 'Press Start 2P', cursive;
+    font-style: oblique;
+    font-size: 1.5em;
+    color: rgb(14, 14, 14);
+    padding-top: 50px;
+ 
+}
+
+.Para2{
+    font-family: 'Press Start 2P', cursive;
+    font-style: oblique;
+    color: rgb(86, 156, 236);
+    padding-top: 50px;
+    font-size: 2em;
+    color: rgb(70, 218, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.RPG-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+}
+.CharcacterSelect{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 100px;
+}
+
+.Origin{
+    margin-top: 100px;
+    background-image: url("images/bp_Arasaka_Mantis_Blades.jpg") ;
+    background-repeat: no-repeat;
+    
+}
+
+#Origin{
+    text-align: start;
+    padding-bottom: 50px;
+}
+
+
+.Img2{
+    margin-left: 100px;
+}
+
+.OriginShape{
+    color:  darkgrey;
+    font-size: 20px;
+    margin-right: 200px;
+    text-decoration: underline;
+    
+}
+
+.OriginImg{
+    height: 300px;
+    width: 200px;
+    opacity: 0.7;
+    transition: transform 0.5s;
+    margin: 0 auto;
+}
+
+.OriginImg:hover{
+    cursor: grabbing; 
+    transform: scale(1.5); 
+    opacity: 1;
+    
+}
+
+.Story{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+    margin-left: 200px;
+}
+@keyframes nav-bar{
+    from{color: rgb(5, 5, 5);}
+    to {color: rgb(212, 209, 35);}
+}
+@keyframes h2 {
+    from {color:rgb(119, 119, 54); left:0px; top:0px;}
+    to {color:yellow; left:500px; top:0px;}
+
+}
+@keyframes h1{
+    from{color: rgb(250, 246, 33);left: 0px;}
+    to {color: black;left: 700px;}
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
